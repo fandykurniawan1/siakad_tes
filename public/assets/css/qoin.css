@@ -1,0 +1,60 @@
+.btn-primary {
+    color: #000 !important;
+    border-color: #ffde17;
+    background-color: #ffde17;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+    color: #000 !important;
+    border-color: #ffe85e; 
+    background-color: #ffe85e;
+}
+.btn-primary.active, .btn-primary:active, .open > .btn-primary.dropdown-toggle {
+    color: #000 !important;
+    border-color: #f5d200;
+    background-color: #f5d200;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .btn-primary.dropdown-toggle.focus, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle:hover {
+    color: #000 !important;
+    border-color: #f5d200;
+    background-color: #f5d200;
+}
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    color: #000 !important;
+    border-color: #ffeb76;
+    background-color: #ffeb76;
+}
+.form-control.focus, .form-control:focus {
+    border-color: #ffde17;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before, .checkbox-primary input[type="checkbox"]:checked + input[type="hidden"] + label::before, .checkbox-primary input[type="radio"]:checked + label::before, .checkbox-primary input[type="radio"]:checked + input[type="hidden"] + label::before {
+    background-color: #ffde17;
+    border-color: #ffde17;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::after, .checkbox-primary input[type="checkbox"]:checked + input[type="hidden"] + label::after, .checkbox-primary input[type="radio"]:checked + label::after, .checkbox-primary input[type="radio"]:checked + input[type="hidden"] + label::after {
+    color: #000;
+}
+a {
+    color: #e4c71b;
+}
+a:focus, a:hover {
+    color: #e3d166;
+}
+.site-navbar {
+    background-color: #263238;
+}
+.select2-container--default.select2-container--open .select2-selection {
+    border-color: #ffde17 !important;
+}
+.select2-container--default .select2-dropdown {
+    border-color: #ffde17 !important;
+}
+div.dataTables_paginate .paginate_button.active > a, div.dataTables_paginate .paginate_button.active > a:focus, div.dataTables_paginate .paginate_button.active > a:hover {
+    color: #000 !important;
+    border-color: #ffde17 !important;
+    background-color: #ffde17 !important;
+}
+div.dataTables_paginate .paginate_button > a:focus, div.dataTables_paginate .paginate_button > a:hover {
+    color: #000 !important;
+    border-color: #ffde17 !important;
+    background-color: #ffde17 !important;
+}
